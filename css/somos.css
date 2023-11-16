@@ -132,8 +132,34 @@ color:  #196966;
     margin-left:20px;   
 }
 
+.a-lucas{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.a-melissa{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.a-vitor{
+    display: flex;
+    margin-bottom: 20px;
+}
+
 .desenvolvedores img{
     width: 40px;
+}
+
+.referencia h4{
+    color: #45B3AF;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.referencia p{
+    
 }
 
 footer{
