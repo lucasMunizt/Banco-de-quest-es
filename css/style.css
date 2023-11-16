@@ -22,6 +22,26 @@ a:hover{
     color: #3a3838;
 }
 
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    font-family: 'Roboto', sem serifa;
+    
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~ul {
+    left: 0;
+}
+
 .nav-home {
 color:  #196966;
 }
@@ -222,12 +242,43 @@ footer{
 }
 
 @media(max-width:450px){
+
+    .checkbtn {
+        display: block;
+    }
+
+   .navbar-inner ul {
+        position: fixed;
+        width: 400px;
+        box-shadow: 0 0 5px grey;
+        max-width: 70%;
+        height: 100%;
+        background-color: #98cfc3;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 45;
+        max-height: 100%;
+        flex-direction: column;
+        
+    }
+
+    nav ul li {
+        display: block;
+   
+        line-height: 30px;
+        padding: 12px 0;
+        cursor: pointer;
+        opacity: 1;
+    }
+
     .navbar-inner ul li a{
-        font-size: 12px;
+        font-size: 16px;
     }
   
     .navbar-inner img{
-        width: 60px;
+        width: 100px;
     }
 
     .img-t {
@@ -236,7 +287,7 @@ footer{
 
     .text-description h5{
         font-size: 12px;
-        margin-bottom: 10px;    
+        margin-bottom: 10px;
     }
     
     .text-description h3{
