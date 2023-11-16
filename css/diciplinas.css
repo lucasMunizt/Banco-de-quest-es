@@ -68,37 +68,94 @@ color:  #196966;
 }
 
 .img-t {
-    background-image: url("../img/authentic-book-club-scene\ 2.png");
+    background-image: url("../img/view-books-arrangement\ 1.png");
     background-size: cover;
     background-position: center;
-    padding: 13rem 0;
+    padding: 10rem 8rem;
 }
+
 .container{
     display: flex;
     flex-direction: column;
-    align-items: end;
-    text-align: right;
+    align-items:baseline;
 }
 
 .text-description{
     color: #FFFFFF;
     font-family: 'Zilla Slab', serif;
     font-weight: 400;
-    line-height: 40px;
-    margin-right: 25px;
-}
-
-.text-description h5{
-    font-size: 18px;
-    margin-bottom: 10px;    
 }
 
 .text-description h3{
     background-color: #45B3AF;
-    font-size: 30px;
+    font-size: 40px;
 }
 
-.text-description button{
+.container-busca{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.container-busca input[type="text"]{
+    width: 500px;
+    height: 40px;
+    background-color: #E0F4F6;
+    border: none;
+    border-radius: 8px;
+    padding-inline-start: 34px;
+}
+
+::placeholder{
+    color: #196966;
+}
+
+.busca i{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgba(141, 135, 135, 0.643);
+}
+
+.service-container{
+    margin-top: 50px;
+}
+
+.service-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.service-container li{
+    flex:1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-container li i{
+    color: #5DB3F0;
+    font-size: 40px;
+}
+
+.service-container li h4{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #45B3AF;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+}
+
+.service-container li p{
+    margin-top: 20px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 200;
+}
+
+.service-container li button{
+
     margin-top: 10px;
     padding: 10px;
     background-color: #196966;
@@ -109,40 +166,17 @@ color:  #196966;
     width: 200px;
     cursor: pointer;
     transition:all 0.4s ease-in ;
+
 }
 
 button:hover{
     background-color: #3d9491;
 }
 
-.container-diciplinas h2{
-    margin-top: 20px;
-    text-align: center;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 200;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-.service-container ul{
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-
-}
-
-.service-container li{
-    flex:1 1 200px;
-    list-style: none;
-    text-align: center;
-    padding: 20px;
-}
-
 footer{
     background-color: #196966;
     margin-top: 90px; 
     padding: 40px;
-    
 }
 
 .container-pai{
@@ -165,16 +199,13 @@ footer{
     }
 
     .img-t {
-        padding: 12rem 0;
+        padding:  8rem 2rem;
     }
 
-    .text-description h5{
-        font-size: 14px;   
-    }
-    
+
     .text-description h3{
         background-color: #45B3AF;
-        font-size: 18px;
+        font-size: 28px;
     }
 
     .service-container ul{
@@ -188,6 +219,9 @@ footer{
         text-align: center;
         padding: 8px;
     }
+    .automatos{
+        margin-top: 30px;
+    }
 }
 
 @media (max-width:576px) {
@@ -200,17 +234,22 @@ footer{
     }
 
     .img-t {
-        padding: 10rem 0;
+        padding: 10rem 1rem;
     }
 
-    .text-description h5{
-        font-size: 16px;
-        margin-bottom: 10px;    
-    }
-    
     .text-description h3{
         background-color: #45B3AF;
         font-size: 20px;
+    }
+
+    .container-busca input[type="text"]{
+        width: 400px;
+        height: 40px;
+    }
+
+    .busca i{
+        position: absolute;
+        margin-top: 12px;
     }
 
     .service-container ul{
@@ -223,7 +262,7 @@ footer{
     }
     
     .service-container li p{
-       margin-top: 5px;
+       margin-top: 10px;
      
     }
 
@@ -276,18 +315,12 @@ footer{
     }
 
     .img-t {
-        padding: 8rem 0;
+        padding: 10rem 1rem;
     }
 
-    .text-description h5{
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-    
     .text-description h3{
         background-color: #45B3AF;
-        font-size: 13px;
-        padding: 0;
+        font-size: 30px;
     }
 
     .logo img{
