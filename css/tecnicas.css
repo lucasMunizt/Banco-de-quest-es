@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans:wght@400;500 & family= Zilla+Slab:wght@400;500 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    transition: .4s;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px; 
+}
+
+a:hover{
+    color: #3a3838;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    font-family: 'Roboto', sem serifa; 
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~ul {
+    left: 0;
+}
+
+.nav-home {
+color:  #196966;
+}
+
+.nav-bar{
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar-inner{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-inner img{
+   width: 170px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+}
+
+
+footer{
+    background-color: #196966;
+    margin-top: 90px; 
+    padding: 40px;
+    
+}
+
+.container-pai{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo img{
+    width: 150px;
+}

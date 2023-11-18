@@ -91,6 +91,9 @@ color:  #196966;
 .text-description h3{
     background-color: #45B3AF;
     font-size: 30px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
 }
 
 .service-container ul{
@@ -209,9 +212,6 @@ footer{
     .text-description h3{
         background-color: #45B3AF;
         font-size: 20px;
-        padding: 10px;
-        border-radius: 3px;
-        border: none;
     }
 
     .service-container ul{
