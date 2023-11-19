@@ -67,12 +67,124 @@ color:  #196966;
     gap: 40px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container h4{
+    color: #45B3AF;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-align: center;
+}
+
+.container ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-container h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.livraria{
+    display: flex;
+}
+
+.livraria p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.livraria a{
+    padding: 8px;
+    background-color: #196966;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    transition:all 0.4s ease-in;
+    margin-left: 20px;
+    border-color: none;
+    margin-bottom: 40px;
+    margin-top: -7px;
+}
+
+.empresa{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.empresa-p{
+  font-size: 12px;  
+  margin-bottom: 30px;
+  margin-right: 600px;
+}
+
+.empresa p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif
+}
+
+.empresa a{
+    padding: 8px;
+    background-color: #196966;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition:all 0.4s ease-in;
+    margin-left: 20px;
+   border-color: none;
+}
+
+.editora{
+    display: flex;
+    align-items: center;
+}
+
+.editora p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif
+}
+
+.editora a{
+    padding: 8px;
+    background-color: #196966;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition:all 0.4s ease-in;
+    margin-left: 20px;
+   border-color: none;
+}
+
+.editora-p{
+    font-size: 12px;  
+    margin-bottom: 10px;
+    margin-right: 480px;
+}
 
 footer{
     background-color: #196966;
     margin-top: 90px; 
     padding: 40px;
-    
 }
 
 .container-pai{
@@ -84,3 +196,34 @@ footer{
 .logo img{
     width: 150px;
 }
+
+
+
+@media(max-width:900px){
+    .navbar-inner ul li a{
+        font-size: 18px;
+    }
+
+    .navbar-inner img{
+        width: 130px;
+    }
+    .livraria{
+        display: none;
+    }
+
+}
+
+@media (max-width:576px) {
+    .navbar-inner ul li a{
+      font-size: 12px;
+    }
+
+    .navbar-inner img{
+        width: 100px;
+    }
+
+    .livraria a{
+     
+    }
+
+}   
