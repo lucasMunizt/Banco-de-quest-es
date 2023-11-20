@@ -91,7 +91,7 @@ color:  #196966;
     background-color:#3ac4bf;
     border-radius: 20px;
     width: 600px;
-    height: 600px;
+    height: 900px;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -257,7 +257,7 @@ footer{
     .form{
         border-radius: 20px;
         width: 330px;
-        height: 600px;
+        height: 900px;
     }
 
     input[type="text"]{
