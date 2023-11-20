@@ -195,7 +195,7 @@ footer{
 
 @media(max-width:900px){
     .navbar-inner ul li a{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .navbar-inner img{
@@ -229,8 +229,40 @@ footer{
 }
 
 @media (max-width:576px) {
+    .checkbtn {
+        display: block;
+    }
+
+   .navbar-inner ul {
+        position: fixed;
+        width: 400px;
+        box-shadow: 0 0 5px grey;
+        max-width: 70%;
+        height: 100%;
+        background-color: #98cfc3;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 45;
+        max-height: 100%;
+        flex-direction: column;       
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 30px;
+        padding: 12px 0;
+        cursor: pointer;
+        opacity: 1;
+    }
+
     .navbar-inner ul li a{
-      font-size: 12px;
+        font-size: 16px;
+    }
+  
+    .navbar-inner img{
+        width: 100px;
     }
 
     .navbar-inner img{
@@ -281,43 +313,6 @@ footer{
 }
 
 @media(max-width:450px){
-
-    .checkbtn {
-        display: block;
-    }
-
-   .navbar-inner ul {
-        position: fixed;
-        width: 400px;
-        box-shadow: 0 0 5px grey;
-        max-width: 70%;
-        height: 100%;
-        background-color: #98cfc3;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: 45;
-        max-height: 100%;
-        flex-direction: column;       
-    }
-
-    nav ul li {
-        display: block;
-        line-height: 30px;
-        padding: 12px 0;
-        cursor: pointer;
-        opacity: 1;
-    }
-
-    .navbar-inner ul li a{
-        font-size: 16px;
-    }
-  
-    .navbar-inner img{
-        width: 100px;
-    }
-
     .img-t {
         padding: 10rem 1rem;
     }
