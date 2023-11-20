@@ -195,7 +195,7 @@ footer{
 
 @media(max-width:900px){
     .navbar-inner ul li a{
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .navbar-inner img{
@@ -227,6 +227,17 @@ footer{
         margin-top: 30px;
     }
 }
+
+@media(max-width:760px){
+    .navbar-inner ul li a{
+        font-size: 14px;
+    }
+
+    .navbar-inner img{
+        width: 130px;
+    }
+}
+
 
 @media (max-width:576px) {
     .checkbtn {
