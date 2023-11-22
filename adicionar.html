@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./css/adicionar.css">
     <title>Adicionar Questão</title>
+    <script src="./js/createQuestion.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav class="nav-bar">
             <div class="navbar-inner">
-                <img src="./img/Screenshot_10 1.png" alt="logo, com descrição dizendo banco de questões">
+                <a href="./index.html"><img src="./img/Screenshot_10 1.png" alt="logo, com descrição dizendo banco de questões"></a>
                 <input type="checkbox" id="check">
                 <label for="check" class="checkbtn">
                     <i class="fas fa-bars"></i>
@@ -21,7 +22,7 @@
 
                 <ul class="nav-links">
                     <li><a href="./index.html" class="nav-home">Home</a></li>
-                    <li><a href="./diciplinas.html">Disciplinas</a></li>
+                    <li><a href="./disciplinas.html">Disciplinas</a></li>
                     <li><a href="./somos.html">Quem somos</a></li>
                     <li><a href="./adicionar.html">Adicionar questão</a></li>
                 </ul>
@@ -35,19 +36,19 @@
                 <h4>Adicione sua Questão</h4>
                 <form action="" class="form">
 
-                    <label>Diciplina</label>
-                    <input type="text" placeholder="Diciplina">
+                    <label>Disciplina</label>
+                    <input type="text" class="disciplina" placeholder="Disciplina">
+                    <input type="text" class="assunto" placeholder="Assunto">
 
                     <label>Adicionar enuciado</label>
-                    <input type="text" placeholder="Título">
-                    <textarea placeholder="Enunciado"></textarea>
-                    <label class="adicionar" for="file">Adicionar imagem</label>
-                    <input type="file" id="file">
+                    <input type="text" class="titulo" placeholder="Título">
+                    <textarea class="enunciado" placeholder="Enunciado"></textarea>
+                    <input type="text" class="imagemEnunciado" id="file" placeholder="Adicionar imagem">
 
                     <label>Gabarito</label>
-                    <textarea placeholder="Gabarito"></textarea>
-                    <label class="adicionar" for="file">Adicionar imagem</label>
-                    <input type="file" id="file">
+                    <textarea class="gabarito" placeholder="Gabarito"></textarea>
+                    <input type="text" class="imagemGabarito" id="file" placeholder="Adicionar imagem">
+
 
 
                     <button>Enviar</button>

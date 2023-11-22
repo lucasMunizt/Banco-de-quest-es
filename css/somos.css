@@ -337,8 +337,9 @@ footer{
     
     .text-description h3{
         background-color: #45B3AF;
-        font-size: 13px;
-        padding: 0;
+        font-size: 20px;
+        padding: 2;
+        margin-left: 20px;
     }
 
     .logo img{

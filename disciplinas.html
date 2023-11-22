@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Banco de questões</title>
+    <link rel="stylesheet" href="./css/diciplinas.css">
+    <script src="./js/subjects.js"></script>
+    <title>Disciplinas</title>
 </head>
+
 <body>
     <header>
         <nav class="nav-bar">
@@ -16,7 +19,7 @@
                 <label for="check" class="checkbtn">
                     <i class="fas fa-bars"></i>
                 </label>
-            
+
                 <ul class="nav-links">
                     <li><a href="./index.html" class="nav-home">Home</a></li>
                     <li><a href="./disciplinas.html">Disciplinas</a></li>
@@ -30,39 +33,27 @@
         <main>
             <div class="container">
                 <div class="text-description">
-                    <h5>DESAFIE-SE, COLABORE, APRENDA</h5>
-                    <h3 class="teste">Nosso Banco de Questões Está Esperando Por Você!</h3>
-                    <a href="./disciplinas.html"><button>Explorar</button></a>
-                </div> 
-            </div>     
+                    <h3>Disciplinas</h3>
+                </div>
+            </div>
         </main>
     </section>
-       
+
+
+    <div class="container-busca">
+        <div class="busca">
+            <div class="input-icon">
+                <i class="fa fa-search"></i>
+            </div>
+            <input type="text" placeholder="Buscar por diciplina">
+        </div>
+    </div>
+
     <section>
         <main>
-            <div class="container-diciplinas">
-                <h2>Diciplinas cadastradas</h2>
-            </div>
-            <div class="service-container">
-                <ul>
-                    <li>
-                    <img src="./img/tecnicas de progamacao.png" alt="">
-                    <p>Técnicas de Programação</p>
-                </li>
-                
-                <li>
-                    <img src="./img/linguagens formais.png" alt="">
-                    <p class="tets">Linguagens Formais, Autômatos</p>
-                </li>
-                
-                <li>
-                    <img src="./img/computação grafica.png" alt="">
-                    <p>Computação Gráfica</p>
-                </li>
-
-                </ul>
-            </div>
+            <div id="listaDados" class="service-container"></div>
         </main>
+
     </section>
 
     <footer>
@@ -74,4 +65,5 @@
         </div>
     </footer>
 </body>
+
 </html>
