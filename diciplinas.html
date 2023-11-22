@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./css/diciplinas.css">
+    <script src="./js/subjects.js"></script>
     <title>Disciplinas</title>
 </head>
 
@@ -22,8 +23,8 @@
                 <ul class="nav-links">
                     <li><a href="./index.html" class="nav-home">Home</a></li>
                     <li><a href="./diciplinas.html">Disciplinas</a></li>
-                    <li><a href="./Somos.html">Quem somos</a></li>
-                    <li><a href="./adicionar.html">Adicionar</a></li>
+                    <li><a href="./somos.html">Quem somos</a></li>
+                    <li><a href="./adicionar.html">Adicionar questão</a></li>
                 </ul>
             </div>
         </nav>
@@ -50,23 +51,7 @@
 
     <section>
         <main>
-            <div class="service-container">
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-book"></i>
-                        <h4>Técnicas de Progamação</h4>
-                        <p>Assuntos abordados: REST API com springboot, JPA.</p>
-                        <a href="./tecnicas.html">Explorar</a>
-                    </li>
-
-                    <li class="automatos">
-                        <i class="fa-solid fa-book"></i>
-                        <h4>Linguagens Formais, Autômatos e Computabilidade</h4>
-                        <p>Assuntos abordados: Autômatos Finitos Determinísticos e Não Determinísticos.</p>
-                        <a href="#">Explorar</a>
-                    </li>
-                </ul>
-            </div>
+            <div id="listaDados" class="service-container"></div>
         </main>
 
     </section>
@@ -74,7 +59,7 @@
     <footer>
         <div class="container-pai">
             <div class="logo">
-                <img src="./img/logo-uni7-hor-vazado 1.png 1.png" alt="">
+                <img src="./img/logo-uni7-hor-vazado 1.png" alt="">
             </div>
             <p>Hdc host @2023 All Rights Reserved</p>
         </div>

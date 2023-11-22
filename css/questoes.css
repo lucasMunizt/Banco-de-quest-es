@@ -96,17 +96,17 @@ color:  #196966;
     font-weight: 700;
 }
 
-.livraria{
+.questao{
     display: flex;
 }
 
-.livraria p{
+.questao p{
     font-size: 17px;
     font-weight: 400;
     font-family: 'Work Sans', sans-serif;
 }
 
-.livraria a{
+.questao a{
     padding: 8px;
     background-color: #196966;
     color: #FFFFFF;
@@ -214,11 +214,11 @@ footer{
         font-size: 16px;
     }
 
-    .livraria p{
+    .questao p{
         font-size: 15px;
     }
 
-    .livraria a{
+    .questao a{
         margin-left: 10px;
     }
 
@@ -246,11 +246,11 @@ footer{
 }
 @media(max-width:768px){
     
-    .livraria p{
+    .questao p{
         font-size: 14px;
     }
 
-    .livraria a{
+    .questao a{
         margin-left: 5px;
     }
 
@@ -296,13 +296,13 @@ footer{
         width: 100px;
     }
 
-    .livraria{
+    .questao{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .livraria p{
+    .questao p{
         margin-left: 5px;
         font-size: 13px;
         font-weight: 200;
@@ -310,7 +310,7 @@ footer{
         margin-left: 10px;
     }
 
-    .livraria a{
+    .questao a{
         margin-top: 20px;
         display: block;
         width: 200px;

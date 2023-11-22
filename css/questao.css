@@ -79,18 +79,18 @@ color:  #196966;
     margin-left: 20px;
 }
 
-.livraria{
+.questao{
     display: flex;
 }
 
-.livraria p{
+.questao p{
     font-size: 17px;
     font-weight: 400;
     font-family: 'Work Sans', sans-serif;
     margin-left: 20px;
 }
 
-.livraria a{
+.questao a{
     padding: 8px;
     background-color: #196966;
     color: #FFFFFF;
@@ -103,7 +103,7 @@ color:  #196966;
     margin-top: -7px;
 }
 
-.livraria-p{
+.questao-p{
     font-family: 'Zilla Slab', serif;
     text-align: center;
     margin-bottom: 40px;
@@ -115,6 +115,13 @@ color:  #196966;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 800px;
 }
 
 .imagem p{
@@ -163,18 +170,18 @@ footer{
         text-align: center;
         
     }
-    .livraria{    
+    .questao{    
         text-align: center;
         flex-direction: column;
         align-items: center;
     }
 
-    .livraria p{
+    .questao p{
         font-size: 15px;
         text-align: center;
     }
 
-    .livraria a{
+    .questao a{
         margin-top: 20px;
         display: block;
         width: 200px;

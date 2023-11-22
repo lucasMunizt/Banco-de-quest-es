@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./css/adicionar.css">
-    <title>Adicionar Questão</title>
+    <link rel="stylesheet" href="./css/questao.css">
+    <script src="./js/question.js"></script>
+    <title>Questão</title>
 </head>
-
 <body>
     <header>
         <nav class="nav-bar">
@@ -29,33 +28,19 @@
         </nav>
     </header>
 
+    
     <section>
         <main>
-            <div class="container">
-                <h4>Adicione sua Questão</h4>
-                <form action="" class="form">
-
-                    <label>Diciplina</label>
-                    <input type="text" placeholder="Diciplina">
-
-                    <label>Adicionar enuciado</label>
-                    <input type="text" placeholder="Título">
-                    <textarea placeholder="Enunciado"></textarea>
-                    <label class="adicionar" for="file">Adicionar imagem</label>
-                    <input type="file" id="file">
-
-                    <label>Gabarito</label>
-                    <textarea placeholder="Gabarito"></textarea>
-                    <label class="adicionar" for="file">Adicionar imagem</label>
-                    <input type="file" id="file">
-
-
-                    <button>Enviar</button>
-                </form>
-            </div>
+            <div id="listaDados" class="container"></div>
         </main>
+
     </section>
 
+    <section>
+        <aside class="sidebar">
+            <section id="imagem" class="imagem"></section>
+        </aside>
+    </section>
     <footer>
         <div class="container-pai">
             <div class="logo">
@@ -64,7 +49,5 @@
             <p>Hdc host @2023 All Rights Reserved</p>
         </div>
     </footer>
-
 </body>
-
 </html>
