@@ -6,6 +6,7 @@ const IimagemEnunciado = document.querySelector(".imagemEnunciado");
 const Igabarito = document.querySelector(".gabarito");
 const IimagemGabarito = document.querySelector(".imagemGabarito");
 const Idisciplina = document.querySelector(".disciplina");
+const Iassunto = document.querySelector(".assunto");
 
 function cadastrar(){
     
@@ -21,11 +22,13 @@ function cadastrar(){
             enunciadoImage: IimagemEnunciado.value,
             gabarito: Igabarito.value,
             gabaritoImage: IimagemGabarito.value,
-            name: Idisciplina.value
+            name: Idisciplina.value,
+            assunto: Iassunto.value
         })
     })
     .then(function(res) { console.log(res)})
     .catch(function(res) { console.log(res)})
+    
 }
 
 function limpar(){
@@ -35,6 +38,7 @@ function limpar(){
     Igabarito.value = "";
     IimagemGabarito.value = "";
     Idisciplina.value = "";
+    Iassunto.value = "";
 }
 
 formulario.addEventListener('submit', function(event) {
