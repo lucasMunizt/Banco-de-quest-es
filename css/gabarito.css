@@ -42,7 +42,7 @@ a:hover{
 }
 
 .nav-home {
-color:  #196966;
+    color:  #196966;
 }
 
 .nav-bar{
@@ -77,6 +77,7 @@ color:  #196966;
     text-decoration: underline;
     text-underline-offset: 5px;
     margin-left: 10px;
+    text-align: center;
 }
 
 .gabarito h4{
@@ -84,6 +85,7 @@ color:  #196966;
     font-weight: 600;
     font-size: 20px;
     margin-left: 10px;
+    text-align: center;
 }
 
 .gabarito p{
@@ -134,6 +136,10 @@ footer{
        font-size: 15px;
     }
 
+    .img-gabarito img{
+        width: 700px;
+        height: 400px;
+    }
 }
 
 @media(max-width:760px){
@@ -143,6 +149,11 @@ footer{
 
     .navbar-inner img{
         width: 130px;
+    }
+
+    .img-gabarito img{
+        width: 600px;
+        height: 300px;
     }
 }
 
@@ -166,6 +177,11 @@ footer{
 
     .container-pai p{
         font-size: 15px;
+    }
+
+    .img-gabarito img{
+        width: 500px;
+        height: 300px;
     }
 
 }

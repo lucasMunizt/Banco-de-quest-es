@@ -67,6 +67,13 @@ color:  #196966;
     gap: 40px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .container h4{
     color: #45B3AF;
     margin-top: 20px;
@@ -77,6 +84,12 @@ color:  #196966;
     text-decoration: underline;
     text-underline-offset: 5px;
     margin-left: 20px;
+    /* margin-bottom: 90px; */
+}
+
+.container img{
+    
+    margin-top: 500px;
 }
 
 .questao{
@@ -142,7 +155,7 @@ color:  #196966;
 
 footer{
     background-color: #196966;
-    margin-top: 90px; 
+    margin-top: 40vh; 
     padding: 40px;
 }
 
